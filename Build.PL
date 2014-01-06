@@ -5,6 +5,7 @@ use Module::Build;
 my $builder = Module::Build->new(
   module_name         => 'Thread::Channel',
   'build_requires' => {
+    'File::Spec' => '0',
     'IO::Handle' => '0',
     'IPC::Open3' => '0',
     'Module::Build' => '0.4004',

@@ -1,6 +1,6 @@
 package Thread::Channel;
 {
-  $Thread::Channel::VERSION = '0.002';
+  $Thread::Channel::VERSION = '0.003';
 }
 
 use strict;
@@ -19,13 +19,15 @@ __END__
 
 =pod
 
+=encoding UTF-8
+
 =head1 NAME
 
 Thread::Channel - Fast thread queues
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 SYNOPSIS
 
